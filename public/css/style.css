@@ -1,0 +1,32 @@
+body {
+    font-family: roboto;
+  }
+  p {
+    font-size: 18px;
+    font-family: roboto;
+  }
+  
+  h3,
+  h4 {
+    font-family: Roboto;
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .comments {
+    border: solid 1px rgba(255, 255, 255, 0.247);
+  }
+  
+  .comment {
+    margin: 5px 15px;
+  }
+  
+  .card {
+    padding: 0px !important;
+  }
+  
