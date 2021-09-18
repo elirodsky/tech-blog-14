@@ -52,7 +52,7 @@ router.put('/:id', withAuth, async (req, res) => {
         );
         res.status(200).json(newPost);
     } catch (err) {
-        res.status(400).json({ message: 'Please Sign In!' });
+        res.status(400).json({ message: 'Sign In!' });
     }
 })
 
@@ -66,7 +66,7 @@ router.delete('/:id', withAuth, async (req, res) => {
         });
 
         if (!postData) {
-            res.status(404).json({ message: 'No Post found with this id!' });
+            res.status(404).json({ message: 'Post not found with the id!' });
             return;
         }
 
